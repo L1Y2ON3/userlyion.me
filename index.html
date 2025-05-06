@@ -3,44 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tom mboya-tribute</title>
-    <link rel="icon" href="sddefault.jpg"> 
-    <head></head>
+    <title>Photography Website</title>
+    <link rel="stylesheet" href="greg.css">
+</head>
 <body>
-    <header class="header container">
-        <h1 class="hdr-txt">THOMAS MBOYA <SPan class="blinking"></SPan></h1>
-        <p>Founder of the repulic of kenya</p>
+    <header>
+        <h1>My Photography Website</h1>
+        <nav>
+            <a href="#" class="filter" data-category="all">All</a>
+            <a href="#" class="filter" data-category="nature">Nature</a>
+            <a href="#" class="filter" data-category="urban">Urban</a>
+            <a href="#" class="filter" data-category="portrait">Portrait</a>
+        </nav>
     </header>
-    <main id="main">
-        <div id="image-div">
-            <img src="download (1).jpg" alt="mboyas-image"> 
-        <div class="about-him"id=tribute-information-about-him>
-            <h2 class="hdr-txt">BIOGRAPHY</h2>
+    <main>
+         <section class="gallery">
+        <div class="photo" data-category="nature">
+            <img src="leopard.jpg" alt="Nature Photo 1">
         </div>
-        <P><b>Thomas mboya was a kenyan trade unionist,independence activist,pan africanist and socialist.He was among the founding fathers of the republic of kenya.
-            He led the negotiations for independence at the lancaster house confrence and was pivotal in the foundation of KANU
-            {Kenya African National Union} where he was the secretary general.He laid foundations for kenya capitalists and mixed economy
-            at peak time of world war and set up several kenyan labour instituions.Thomas was the minister of economic planning and developmennt
-            at the time when he was later assainated.</b>
-        </P>
-        <div></div>
-        <hr class="about-him">
-        <div class="timeline"></div>
-        <h3 class="hdr-txt">TIMELINE</h3>
-        <div></div>
-        <P><B>1930:Tom mboya was born in a colonial farm in thika which now know as Juja farm
-            <div></div>
-            1942:He joined st marys school yala
-            <div></div>
-            1946:He joined mangu high school and performed excellently
-            <div></div>
-            1948:He enrolled at royal sanitary institute's medical training college
-            <div></div>
-            1955:He enrolled in certificate course in economics in efficiency correspondence college in s.a
-                  where he graduated and came back to kenya in 1956 an joined politics and he was on the for
-                  front to chair the afican countries get independence untill his untimely death 
-                  <div></div>
-            1969:He was assasinated along moi ave leading to the suspicion that he's assaination was politically
-            influenced.H left his wife and five children.</B></P>
-            <div></div>
+        <div class="photo" data-category="nature">
+            <img src="lion.jpg" alt="Nature Photo 2">
+        </div>
+        <div class="photo" data-category="nature">
+            <img src="bear.webp" alt="Nature Photo 3">
+        </div>
+        <div class="photo"data-category="nature">
+            <img src="landscape.jpg" alt="Nature Photo 4">
+       
+        </div>
+        <div class="photo"data-category="nature">
+            <img src="landsacpee.jpg" alt="Nature Photo 5">
+
+        </div>
+    </div>
+    <div class="photo"data-category="urban">
+        <img src="urban6.jpg" alt="Urban Photo 1">
+
+    </div>
+</div>
+<div class="photo"data-category="urban">
+    <img src="urban4.webp" alt="Urban Photo 2">
+
+</div>
+        <div class="photo"data-category="nature">
+            <img src="cheetah.webp" alt="Nature Photo 5">
+
+        </div>
+        <div class="photo"data-category="portrait">
+            <img src="potrait1.webp" alt="Portrait Photo 1">
+
+        </div>
+        <div class="photo"data-category="portrait">
+            <img src="potrait2.webp" alt="Portrait Photo 2 ">
+
+        </div>
+        
+    </section>
+
+    <div class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+    </main>
+    <footer>
+        <h2>Get in touch</h2>
+        <p>Email or call us</p>
+        <p>Email:
+        <strong>gregorymuhia@gmail.com</strong>
+        <p>Phone:
+        <strong>0701510629</strong>
+           </p>  
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+</html>
